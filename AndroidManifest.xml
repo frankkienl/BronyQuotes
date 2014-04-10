@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-IRC
+changelog 1.1:
+Made ponies pics a bit bigger.
 
-FrankkieNL	    I'm going to make an Pony-related Android app now (from scratch) should be on Google Play by the end of the day.
-Moonlightning	FrankkieNL: I'm going to hold you to that. XD
-Moonlightning	Ping me when you're done.
-Moonlightning	Or `/memoserv send` if I'm not here for some unthinkable reason
-FrankkieNL	    Moonlighting: Ok ! Will do ;-)
-
-Cepheid	        FrankkieNL:  http://en.wikipedia.org/wiki/Law_of_Demeter
-Cepheid	        FrankkieNL:  I only know of it thanks to one particular book I own.  The Pragmattic Programmer.  If you ever want to grab it, the ISBN-13 is 978-0-201-61622-4
 //-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nl.frankkie.bronyquotes"
-    android:versionCode="1"
+    android:versionCode="2"
     android:installLocation="preferExternal"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="7"

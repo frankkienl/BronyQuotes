@@ -2,6 +2,8 @@ package nl.frankkie.bronyquotes;
 
 import android.app.ListActivity;
 import android.content.res.AssetFileDescriptor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.net.Uri;
@@ -102,12 +104,17 @@ public class PonyActivity extends ListActivity {
             ImageView image = (ImageView) convertView.findViewById(R.id.list_item_image);
             try {
                 //https://xjaphx.wordpress.com/2011/10/02/store-and-use-files-in-assets/
-                // get input stream
+               // get input stream
                 InputStream ims = getAssets().open(myPony.name + "/pony.png");
-                // load image as Drawable
-                Drawable d = Drawable.createFromStream(ims, null);
-                // set image to ImageView
-                image.setImageDrawable(d);
+                // load image as Bitmap
+                Bitmap bitmap = BitmapFactory.decodeStream(ims);
+                // scale the image if needed
+                float f = getResources().getDisplayMetrics().density;             
+                Bitmap d = Bitmap.createScaledBitmap(bitmap,
+                        (int) (bitmap.getWidth() * f),
+                        (int) (bitmap.getHeight() * f), true);
+                // set image to ImageView                
+                image.setImageBitmap(d);
             } catch (IOException ex) {
                 //ignore and show default
                 image.setImageResource(R.drawable.ic_launcher);

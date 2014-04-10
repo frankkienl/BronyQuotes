@@ -1,16 +1,20 @@
-E:\Dropbox\BronyQuotes\gen\nl\frankkie\bronyquotes\R.java \
- : E:\Dropbox\BronyQuotes\res\drawable-hdpi\ic_launcher.png \
-E:\Dropbox\BronyQuotes\res\drawable-mdpi\ic_launcher.png \
-E:\Dropbox\BronyQuotes\res\drawable-xhdpi\ic_launcher.png \
-E:\Dropbox\BronyQuotes\res\drawable-xxhdpi\ic_launcher.png \
-E:\Dropbox\BronyQuotes\res\layout\activity_main.xml \
-E:\Dropbox\BronyQuotes\res\layout\list_item.xml \
-E:\Dropbox\BronyQuotes\res\menu\main.xml \
-E:\Dropbox\BronyQuotes\res\values\dimens.xml \
-E:\Dropbox\BronyQuotes\res\values\strings.xml \
-E:\Dropbox\BronyQuotes\res\values\styles.xml \
-E:\Dropbox\BronyQuotes\res\values-sw600dp\dimens.xml \
-E:\Dropbox\BronyQuotes\res\values-sw720dp-land\dimens.xml \
-E:\Dropbox\BronyQuotes\res\values-v11\styles.xml \
-E:\Dropbox\BronyQuotes\res\values-v14\styles.xml \
-E:\Dropbox\BronyQuotes\bin\AndroidManifest.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\gen\nl\frankkie\bronyquotes\R.java \
+ : E:\Dropbox\NetbeansGithub\BronyQuotes\res\drawable-hdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\drawable-mdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\drawable-xhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\drawable-xxhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\layout\activity_main.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\layout\list_item.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\menu\main.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values\dimens.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values\strings.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values\styles.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values-sw600dp\dimens.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values-sw720dp-land\dimens.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values-v11\styles.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\res\values-v14\styles.xml \
+E:\Dropbox\NetbeansGithub\BronyQuotes\bin\res\drawable-hdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\bin\res\drawable-mdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\bin\res\drawable-xhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\bin\res\drawable-xxhdpi\ic_launcher.png \
+E:\Dropbox\NetbeansGithub\BronyQuotes\bin\AndroidManifest.xml \

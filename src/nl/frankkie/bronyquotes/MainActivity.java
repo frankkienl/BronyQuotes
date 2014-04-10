@@ -2,7 +2,8 @@ package nl.frankkie.bronyquotes;
 
 import android.app.ListActivity;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -78,10 +79,15 @@ public class MainActivity extends ListActivity {
                 //https://xjaphx.wordpress.com/2011/10/02/store-and-use-files-in-assets/
                 // get input stream
                 InputStream ims = getAssets().open(pony.name + "/pony.png");
-                // load image as Drawable
-                Drawable d = Drawable.createFromStream(ims, null);
-                // set image to ImageView
-                image.setImageDrawable(d);
+                // load image as Bitmap
+                Bitmap bitmap = BitmapFactory.decodeStream(ims);
+                // scale the image if needed
+                float f = getResources().getDisplayMetrics().density;             
+                Bitmap d = Bitmap.createScaledBitmap(bitmap,
+                        (int) (bitmap.getWidth() * f),
+                        (int) (bitmap.getHeight() * f), true);
+                // set image to ImageView                
+                image.setImageBitmap(d);
             } catch (IOException ex) {
                 //ignore and show default
                 image.setImageResource(R.drawable.ic_launcher);

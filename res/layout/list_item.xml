@@ -6,8 +6,8 @@
               android:layout_height="match_parent">
 <ImageView
         android:id="@+id/list_item_image"
-        android:layout_width="50dp"
-        android:scaleType="center"
+        android:layout_width="100dp"
+        android:scaleType="centerInside"
         android:src="@drawable/ic_launcher"
         android:minHeight="30dp"
         android:layout_height="wrap_content"/>
