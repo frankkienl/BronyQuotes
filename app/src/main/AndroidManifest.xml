@@ -1,0 +1,41 @@
+<!--
+
+Changelog:
+
+1.2:
+Changed App Icon, because of Google Play Store policy changes
+https://support.google.com/googleplay/android-developer/answer/6066610?rd=1
+
+1.1:
+Made ponies pics a bit bigger.
+
+//-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.frankkie.bronyquotes">
+
+
+    <!-- see build.gradle
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+        //-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="nl.frankkie.bronyquotes.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="nl.frankkie.bronyquotes.PonyActivity"
+            android:label="@string/app_name"/>
+    </application>
+</manifest>
